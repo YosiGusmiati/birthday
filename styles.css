@@ -1,0 +1,133 @@
+body {
+    background-color: rgb(18, 18, 18);
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    color: white;
+    
+}
+
+.cover-page {
+    text-align: center;
+    padding: 30px;
+}
+
+.cover-page img {
+    max-width: 40%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(225, 222, 222, 0.2);
+    
+}
+
+.cover-page h1 {
+    margin-top: 20px;
+    font-size: 46px;
+}
+
+.cover-page p {
+    font-size: 25px;
+    color: #777;
+}
+
+.cover-page button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.birthday-page {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.te {
+    text-align: right;
+    margin-right: 200px;
+}
+
+.header {
+    text-align: center;
+}
+
+/* Gaya responsif */
+@media screen and (max-width: 768px) {
+    .cover-page {
+        padding: 20px;
+    }
+
+    /* Gaya tombol di ponsel */
+    .mobile-button {
+        width: 100%;
+    }
+}
+
+.cover-page button:hover {
+    background-color: #2980b9;
+}
+
+
+nav ul {
+    padding-inline: 4rem;
+    display: flex;
+    gap: 2rem;
+}
+
+
+.menu ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #1f1f2c;
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+  
+.menu li {
+    float: left;
+}
+  
+.menu li a {
+    display: inline-block;
+    padding: 15px 3px;
+    text-decoration: none;
+    color:#FFDAB9;
+    text-align: center;
+}
+  
+.menu li a:hover, .sub-menu:hover {
+    opacity:0.9;
+    background-color: #544551;
+}
+  
+.menu .sub-menu-konten {
+    min-width: 160px;
+    box-shadow: 0px 5px 10px 0px rgba(10, 10, 10, 0.2);
+    z-index: 1;
+    opacity:5;
+    display: none;
+    position: absolute;
+    background-color: #202020;
+}
+    
+.menu .sub-menu-konten a:hover {
+    background-color: #161515;
+}
+  
+.menu .sub-menu:hover .sub-menu-konten {
+    display: block;
+}
+
+.phd img{
+    max-width: 23%;
+    border-radius: 10%;
+    box-shadow: 0px 0px 10px rgba(225, 222, 222, 0.2);
+}
